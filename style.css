@@ -1,0 +1,63 @@
+body{
+    background-image: url(HI.jpg);
+    background-size: cover;
+    background-repeat: no repeat ;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+li{
+    margin: 0%;
+    padding: 40px;
+
+}
+a{
+    color: rgb(0, 255, 170);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    list-style-type: none;
+
+}
+h1{
+    text-align: center;
+    color: rgb(238, 212, 229);
+    font-size: 34px;
+    font-family: ;
+}
+h2{
+    text-align: center;
+    color: rgb(223, 104, 104);
+}
+p{
+    text-align: center;
+    color: rgb(187, 255, 0);
+  font-size: 24px;
+}
+label{
+    color: rgb(0, 0, 0);
+       text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 32px;
+}   
+
+
+#contact {
+    padding: 2em;
+margin: 30px auto;
+background-color: rgb(143, 97, 218);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+color: blanchedalmond;
+}
+ .contact-form {
+    display: flex;
+    flex-direction: column;
+}
+ .contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+    margin-bottom: 10px;
+}
